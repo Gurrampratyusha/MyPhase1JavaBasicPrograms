@@ -1,0 +1,47 @@
+package BasicJavaPrograms;
+
+public class InbuiltMethods2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        String title="learning java";
+        if(title.contains("java")) 
+        {
+        	System.out.println("Title is vallid.Test case pass");
+        }
+        	else  {
+        		System.out.println("Title is not vallid.Test case not  pass");	
+        }
+        if(title.equals("learning java")) 
+        {
+        	System.out.println("Title is vallid.Test case pass");
+        }
+        	else  {
+        		System.out.println("Title is not vallid.Test case not pass");	
+        }
+        
+        if(title.equals("learningjava")) 
+        {
+        	System.out.println("Title is vallid.Test case pass");
+        }
+        	else  {
+        		System.out.println("Title is not vallid.Test not case pass");	
+        }
+        
+        String result=title.substring(9);
+        if(result.equals("java"))
+        {
+        	System.out.println("valid");
+        	
+        }
+        else 
+        {
+        	System.out.println("not valid");
+        }
+        	
+        
+        
+        
+	}
+
+}
