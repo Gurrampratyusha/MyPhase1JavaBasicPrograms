@@ -1,0 +1,34 @@
+package BasicJavaPrograms;
+
+public class Constructor {
+    
+	
+	public Constructor()
+	{
+		System.out.println("this is default constructor");
+	}
+	
+	public Constructor(int a)
+	{
+		System.out.println("this is paramnetirized constructor");
+		System.out.println("this is paramnetirized constructor a is"+ a);
+	}
+	
+	
+	public Constructor(int a,int b)
+	{
+		System.out.println("this is paramnetirized constructor");
+		System.out.println("this is paramnetirized constructor a is "+a);
+		System.out.println("this is paramnetirized constructor b is "+b);
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Constructor obj =new Constructor();
+		Constructor obj1 =new Constructor(10);
+		Constructor obj2 =new Constructor(20,30);
+	
+	}
+
+}
