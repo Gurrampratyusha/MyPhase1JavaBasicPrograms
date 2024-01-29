@@ -1,0 +1,19 @@
+package BasicJavaPrograms;
+
+public class Datatypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      int var1=10;
+      double var2=2.3;
+       char var3='A';
+       String var4="Selenium";
+       boolean var5=true;
+        System.out.println("Tha value is:" +var1);
+        System.out.println("Tha value is:" +var2);
+        System.out.println("Tha value is:" +var3);
+        System.out.println("Tha value is:" +var4);
+        System.out.println("Tha value is:" +var5);
+       }
+
+}
